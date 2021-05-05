@@ -1,6 +1,6 @@
 @media only screen and (min-width: 768px) {
     /* For mobile phones: */
-    #container {
+    .container {
         width: 450px;
         height: 470px;
         border-width: thin;
@@ -25,7 +25,7 @@
 }
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    #container {
+    .container {
         width: 290px;
         height: 310px;
         border-width: thin;
@@ -60,6 +60,25 @@
         text-align: center;
     }
     
+}
+
+html {
+    margin: auto;
+    background-color: hsl(185, 75%, 39%);
+    background-attachment: fixed;
+    background-image: url("bg-pattern-top.svg"), url("bg-pattern-bottom.svg");
+    background-position: right calc(47vw + 15%) bottom calc(65vh - 15vw), left calc(40vw + 25%) top calc(72vh - 10vw);
+    background-repeat: no-repeat;
+    /*background-size: 100vh;*/
+}
+body {
+    height: 100vh;
+    display: flex;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    font-family: kumbh sans;
 }
 .upper {
     height: 182px;
