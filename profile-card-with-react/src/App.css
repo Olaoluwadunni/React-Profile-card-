@@ -1,11 +1,12 @@
 @media only screen and (min-width: 768px) {
     /* For mobile phones: */
     .container {
-        width: 450px;
-        height: 470px;
+        width: 290px;
+        min-height: 440px;
         border-width: thin;
         border-radius: 24px;
-        font-family: kumbh sans;
+        font-family: kumbh sans
+    }
     }
     
     .down {
@@ -31,6 +32,7 @@
         border-width: thin;
         border-radius: 24px;
         font-family: kumbh sans;
+        background-attachment:fixed;
     }
     .down{
         
@@ -69,7 +71,7 @@ html {
     background-image: url("bg-pattern-top.svg"), url("bg-pattern-bottom.svg");
     background-position: right calc(47vw + 15%) bottom calc(65vh - 15vw), left calc(40vw + 25%) top calc(72vh - 10vw);
     background-repeat: no-repeat;
-    /*background-size: 100vh;*/
+    background-size: 100vh;
 }
 body {
     height: 100vh;
