@@ -28,14 +28,12 @@
   /* For mobile phones: */
   #container {
     width: 290px;
-    max-height: 440px;
+    max-height: 400px;
     border-width: thin;
     border-radius: 24px;
     font-family: kumbh sans;
-    /*overflow: hidden !important;*/
   }
   .down{
-      
       background-color:white;
       border-bottom-left-radius:24px;
       border-bottom-right-radius:24px;   
@@ -48,16 +46,6 @@
       font-size: 12px;
       line-height: 28px;
       text-align: center;
-  }
-  body {
-      max-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0px;
-      font-family: kumbh sans;
-      background-attachment: fixed;
-      /*overflow: hidden !important;*/
   }
   .stats {
       width: 90px;
@@ -88,10 +76,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px;
+  margin: 0;
   font-family: kumbh sans;
   background-attachment: fixed;
-  /*overflow: hidden !important;*/
 }
 .upper {
   height: 182px;
