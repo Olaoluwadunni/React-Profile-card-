@@ -32,7 +32,7 @@
     border-width: thin;
     border-radius: 24px;
     font-family: kumbh sans;
-    overflow-x: hidden !important;
+    /*overflow: hidden !important;*/
   }
   .down{
       
