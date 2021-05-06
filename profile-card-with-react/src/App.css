@@ -50,7 +50,14 @@
       text-align: center;
   }
   body {
-    overflow-x: hidden !important;
+      max-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0px;
+      font-family: kumbh sans;
+      background-attachment: fixed;
+      overflow: hidden !important;
   }
   .stats {
       width: 90px;
