@@ -6,7 +6,6 @@
       border-width: thin;
       border-radius: 24px;
       font-family: kumbh sans;
-      background-attachment: fixed;
   }
   
   .down {
@@ -27,13 +26,14 @@
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   #container {
-    width: 290px;
-    max-height: 400px;
-    border-width: thin;
-    border-radius: 24px;
-    font-family: kumbh sans;
+      width: 290px;
+      max-height: 465px;
+      border-width: thin;
+      border-radius: 24px;
+      font-family: kumbh sans;
   }
   .down{
+      
       background-color:white;
       border-bottom-left-radius:24px;
       border-bottom-right-radius:24px;   
@@ -65,20 +65,21 @@
 html {
   margin: 0;
   background-color: hsl(185, 75%, 39%);
+  background-attachment: fixed;
   background-image: url("bg-pattern-top.svg"), url("bg-pattern-bottom.svg");
   background-position: right calc(47vw + 15%) bottom calc(65vh - 15vw), left calc(40vw + 25%) top calc(72vh - 10vw);
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /*background-size: 100vh;*/
   max-height: 100vh;
 }
 body {
-  max-height: 100vh;
+  height: 100vh;
   display: flex;
+  background-attachment: fixed;
   justify-content: center;
   align-items: center;
-  margin: 0;
+  margin: 0px;
   font-family: kumbh sans;
-  background-attachment: fixed;
 }
 .upper {
   height: 182px;
