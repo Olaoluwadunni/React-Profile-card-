@@ -73,7 +73,7 @@ html {
   height: 100vh;
 }
 body {
-  height: 90vh;
+  max-height: 90vh;
   display: flex;
   background-attachment: fixed;
   justify-content: center;
