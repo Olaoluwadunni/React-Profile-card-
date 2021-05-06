@@ -57,7 +57,7 @@
       margin: 0px;
       font-family: kumbh sans;
       background-attachment: fixed;
-      overflow: hidden !important;
+      /*overflow: hidden !important;*/
   }
   .stats {
       width: 90px;
@@ -91,7 +91,7 @@ body {
   margin: 0px;
   font-family: kumbh sans;
   background-attachment: fixed;
-  overflow: hidden !important;
+  /*overflow: hidden !important;*/
 }
 .upper {
   height: 182px;
